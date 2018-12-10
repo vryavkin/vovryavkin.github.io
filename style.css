@@ -1,3 +1,47 @@
 body {
-  font-family: Georgia;
+    font-family: Georgia;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 70%;
+    line-height: 1.5;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    margin-bottom: -15px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -15px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+table { 
+    width: 100%; /* Ширина таблицы */
+    border: 1px solid black; /* Одинарная черная рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+}
+th { 
+    text-align: center; /* Выравнивание по левому краю */
+    background: #ccc; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+td { 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+figure {
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 0 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */ 
+}
+.podpis {
+    margin: 0 auto 5px;
+    float: center;
+    font-style: italic;
 }
